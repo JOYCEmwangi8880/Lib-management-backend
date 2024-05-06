@@ -31,7 +31,8 @@ def seed_data():
                 Book(title="The Grapes of Wrath", author="John Steinbeck", stock=7, description="A novel depicting the hardships of Dust Bowl-era farmers as they migrate to California in search of a better life."),
                 Book(title="Crime and Punishment", author="Fyodor Dostoevsky", stock=8, description="A psychological thriller following the moral and mental struggles of the impoverished student Raskolnikov."),
                 Book(title="Frankenstein", author="Mary Shelley", stock=9, description="A gothic novel exploring themes of creation, ambition, and the consequences of playing god."),
-                Book(title="The Canterbury Tales", author="Geoffrey Chaucer", stock=10, description="A collection of stories told by a group of pilgrims traveling to Canterbury Cathedral, offering a snapshot of medieval English society.")
+                Book(title="The Canterbury Tales", author="Geoffrey Chaucer", stock=10, description="A collection of stories told by a group of pilgrims traveling to Canterbury Cathedral, offering a snapshot of medieval English society."),
+                
 ]
 
 
