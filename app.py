@@ -8,8 +8,8 @@ from flask_cors import CORS
 
 
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///library.db'
-# app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get('DATABASE_URI')
+# app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///library.db'
+app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get('DATABASE_URI')
 db.init_app(app)
 migrate = Migrate(app, db)
 CORS(app)
