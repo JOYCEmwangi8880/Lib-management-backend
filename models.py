@@ -9,6 +9,7 @@ class Book(db.Model, SerializerMixin):
     author = db.Column(db.String(200), nullable=False)
     description = db.Column(db.Text, nullable=False) 
     stock = db.Column(db.Integer, nullable=False)
+
     transactions = db.relationship('Transaction', backref='book', lazy=True)
 
     def serialize(self):
@@ -24,6 +25,7 @@ class Member(db.Model, SerializerMixin):
     username = db.Column(db.String(100), nullable=False)
     email = db.Column(db.String(100), unique=True, nullable=False)
     debt = db.Column(db.Float, default=0)
+    
     transactions = db.relationship('Transaction', backref='member', lazy=True)
 
 class Transaction(db.Model, SerializerMixin):
