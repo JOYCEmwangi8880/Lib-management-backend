@@ -57,7 +57,7 @@
       "headers": {
         "Content-Type": "application/json"
       }
-    }
+    },
   },
   {
     "name": "Test: Update book",
@@ -68,7 +68,7 @@
       "headers": {
         "Content-Type": "application/json"
       }
-    }
+    },
   },
   {
     "name": "Test: Partial update to a book",
@@ -79,7 +79,7 @@
       "headers": {
         "Content-Type": "application/json"
       }
-    }
+    },
   },
   {
     "name": "Test: Delete book",
