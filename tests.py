@@ -191,7 +191,7 @@
       "url": "http://localhost:5000/transactions/1",
       "method": "PUT",
       "body": {
-        "date_returned": "2024-04-25T12:00:00Z"
+        "date_returned": "2024-04-13T12:00:00Z"
       }
     }
   },
